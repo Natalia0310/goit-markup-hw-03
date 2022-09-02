@@ -159,9 +159,7 @@ h1, h2, h3, p {
   margin-right: auto;
 }
 
-.feature-list {
-  
-}
+
 .text {
   font-weight: 400;
   font-size: 14px;
@@ -272,6 +270,7 @@ h1, h2, h3, p {
   list-style: none;
   display: flex;
   gap: 8px;
+  justify-content: center;
 }
 
 .list-portfol {
