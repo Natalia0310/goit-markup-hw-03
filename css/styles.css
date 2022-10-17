@@ -120,8 +120,8 @@ ul {
   color: var(--accent-color);
   cursor: pointer;
 }
-.header-link:hover,
-.header-link:focus {
+.header-link-nav:hover,
+.header-link-nav:focus {
   color: var(--accent-color);
   cursor: pointer;
 }
@@ -278,6 +278,10 @@ h1, h2, h3, p {
   list-style: none;
   margin-top: 20px;
 }
+.list-address {
+  margin-bottom: 9px;
+  margin-top: 9px;
+}
 .address-maps {
   font-family: 'Roboto';
   font-style: normal;
@@ -321,6 +325,12 @@ h1, h2, h3, p {
   letter-spacing: 0.06em;
   color: var(--title-text-color);
   margin-bottom: 4px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 .portfol-item {
   border-bottom: 1px solid #ececec;
