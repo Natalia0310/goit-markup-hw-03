@@ -26,15 +26,15 @@
           <ul class="list-header-list">
             <li class="header-item"><a href="Cтудія" class="header-link-current">Cтудія</a></li>
             <li class="header-item"
-              ><a href="./portfolio.html" class="header-link">Портфоліо</a></li
+              ><a href="./portfolio.html" class="header-link-nav">Портфоліо</a></li
             >
-            <li class="header-item"><a href="Контакти" class="header-link">Контакти</a></li>
+            <li class="header-item"><a href="Контакти" class="header-link-nav">Контакти</a></li>
           </ul>
         </nav>
        
           <ul class="header-address">
             <li class="header-contact-link"
-              ><a href="mailto:info@devstudio.com" class="header-link-current"
+              ><a href="mailto:info@devstudio.com" class="header-link"
                 >info@devstudio.com</a
               ></li
             >
@@ -82,8 +82,8 @@
         </ul>
       </section>
 
-      <section class="section">
-        <div class="container-work">
+      <section class="section-work">
+        <div class="container">
           <h2 class="section-title">Чим ми займаємося</h2>
           <ul class="work-list">
             <li class="work-our">
@@ -99,44 +99,55 @@
         </div>
       </section>
 
-      <section class="section">
-        <div class="container-team">
+      <section class="section team-section">
+        <div class="container">
           <h2 class="section-title">Наша команда</h2>
           <ul class="list-team">
             <li class="team-iten">
               <img src="./images/img11.jpg" alt="працівник1" width="270" />
+              <div class="team-job"> 
               <h3 class="title-name">Ігор Дем'яненко</h3>
               <p class="job-title">Product Designer</p>
+              </div>
             </li>
+            
             <li class="team-iten">
               <img src="./images/img21.jpg" alt="працівник2" width="270" />
+              <div class="team-job">
               <h3 class="title-name">Ольга Рєпіна</h3>
               <p class="job-title">Frontend Developer</p>
+            </div>
             </li>
             <li class="team-iten">
               <img src="./images/img31.jpg" alt="працівник3" width="270" />
+              <div class="team-job">
               <h3 class="title-name">Микола Тарасов</h3>
               <p class="job-title">Marketing</p>
+            </div>
             </li>
             <li class="team-iten">
               <img src="./images/img41.jpg" alt="працівник4" width="270" />
+              <div class="team-job">
               <h3 class="title-name">Михайло Єрмаков</h3>
               <p class="job-title">UI Designer</p>
+            </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
     <footer class="footer">
+      <div class="container footer-container">
+        <div class="logo-address">
       <a href="./index.html" class="footer-logo"><span class="accent">Web</span>Studio</a>
-      <address>
+      <address class="footer-address">
         <ul class="list-footer">
           <li>
             <a class="address-maps" href="https://goo.gl/maps/hq1uXbXx6QjJofAr7"
               >м.Київ, п-т Лесі Українки, 26</a
             >
           </li>
-          <li>
+          <li class="list-address">
             <a href="mailto:info@devstudio.com" class="address-link">info@devstudio.com</a>
           </li>
           <li>
@@ -144,6 +155,7 @@
           </li>
         </ul>
       </address>
+      
     </footer>
   </body>
 </html>
