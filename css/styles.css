@@ -54,7 +54,8 @@ ul {
   letter-spacing: 0.03em;
   color: #000000;
   text-decoration: none;
-
+  padding-top: 24px;
+  padding-bottom: 24px;
   margin-right: 93px;
 }
 .list-header-list {
@@ -157,7 +158,6 @@ h1, h2, h3, p {
 .button-primary {
   font-weight: 700;
   line-height: calc(30 / 16);
-  display: inline-block;
   letter-spacing: 00.06em;
   color: #ffffff;
   background-color: var(--accent-color);
@@ -166,10 +166,14 @@ h1, h2, h3, p {
   font-size: 16px;
   text-align: center;
   align-items: center;
-  padding-left: 32px;
-  padding-top: 10px;
-  padding-right: 32px;
-  padding-bottom: 10px; 
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer; 
+}
+.button-primary:hover,
+.button-primary:focus {
+  background: #188CE8;
 }
 .section-title {
   font-weight: 700;
@@ -201,6 +205,7 @@ h1, h2, h3, p {
 }
 .section-work {
   padding-top: 0;
+  padding-bottom: 94px;
 }
 .team-job {
   padding-top: 30px;
@@ -230,6 +235,9 @@ h1, h2, h3, p {
 .team-iten {
   background-color: #ffffff;
   width: 270;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
 }
 
 .work-list {
@@ -271,12 +279,12 @@ h1, h2, h3, p {
   letter-spacing: 0.03em;
   color: var(--fond-heder);
   text-decoration: none;
+  margin-bottom: 20px;
 }
 
 .list-footer {
   display: block;
   list-style: none;
-  margin-top: 20px;
 }
 .list-address {
   margin-bottom: 9px;
@@ -420,4 +428,11 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+.logo-address {
+  margin-right: 70px; 
+}
+.footer-container {
+  display: flex;
+  align-items: baseline;
 }
