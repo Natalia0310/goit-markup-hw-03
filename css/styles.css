@@ -170,6 +170,8 @@ h1, h2, h3, p {
   justify-content: center;
   align-items: center;
   cursor: pointer; 
+  width: 216px;
+  height: 50px;
 }
 .button-primary:hover,
 .button-primary:focus {
@@ -249,7 +251,7 @@ h1, h2, h3, p {
 }
 .feature-list {
   display: flex;
-  gap: 30px;
+  gap: 25px;
 }
 .title-name {
   line-height: calc(19 / 16);
@@ -276,7 +278,7 @@ h1, h2, h3, p {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: calc(31 / 26);
+  line-height: calc(31 / 26); 
   letter-spacing: 0.03em;
   color: var(--fond-heder);
   text-decoration: none;
